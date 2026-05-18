@@ -263,11 +263,7 @@ def runCocotbTests():
         simulator="verilator",
         timescale="1ns/1ps",
         plus_args=plus_args,
-<<<<<<< HEAD
-        defines=[f"INSTR_HEX_FILE=\"{hex_file}\""]  # Pass as Verilog define
-=======
         defines=[f"INSTR_HEX_FILE=\"{hex_file}\""]# Pass as Verilog define
->>>>>>> 2adc67a (added the dcache, its testbenches, integrated with the cpu and tested it with the present tests and data memory is of no use now but still present)
     )
 
 if __name__ == "__main__":

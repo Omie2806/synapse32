@@ -1,10 +1,6 @@
 `default_nettype none
 `include "memory_map.vh"
-<<<<<<< HEAD
-
-=======
 //This module is obsolete now, the main memory is included in the cache itself
->>>>>>> 2adc67a (added the dcache, its testbenches, integrated with the cpu and tested it with the present tests and data memory is of no use now but still present)
 // data_mem.v - byte-addressable data memory for RISC-V CPU
 
 module data_mem #(parameter DATA_WIDTH = 32, ADDR_WIDTH = 32, MEM_SIZE = 1048576) ( // 1MB = 1024*1024 bytes
