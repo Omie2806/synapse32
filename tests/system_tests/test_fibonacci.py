@@ -266,5 +266,6 @@ def runCocotbTests():
         defines=[f"INSTR_HEX_FILE=\"{hex_file}\""]# Pass as Verilog define
     )
 
+
 if __name__ == "__main__":
     runCocotbTests()
