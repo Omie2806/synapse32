@@ -16,10 +16,6 @@ INCLUDES = -I$(shell pwd)/../rtl/include/ -I$(shell pwd)/../rtl/
 EXTRA_ARGS = $(INCLUDES)
 # Simulator
 SIM = verilator
-<<<<<<< HEAD
-=======
-WAVES = 1
->>>>>>> 2adc67a (added the dcache, its testbenches, integrated with the cpu and tested it with the present tests and data memory is of no use now but still present)
 
 #Check if INSTRUCTION_MEMORY_HEX is set, if not, raise an error
 ifndef INSTRUCTION_MEMORY_HEX
