@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-// Memory mapped addresses
-=======
->>>>>>> 2adc67a (added the dcache, its testbenches, integrated with the cpu and tested it with the present tests and data memory is of no use now but still present)
+//memory mapped address
 #define UART_BASE       0x20000000
 #define UART_DATA       (UART_BASE + 0x00)
 #define UART_STATUS     (UART_BASE + 0x04)
